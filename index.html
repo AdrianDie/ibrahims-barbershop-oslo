@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibrahims Barbershop & Kafé | Klipp og kaffe på Oppsal</title>
+  <meta name="description" content="Barbershop og kafé under samme tak på Oppsal Senter i Oslo. Klipp deg mens du får en god kaffe. Uformelt, varmt og alltid med et smil." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Decor shapes (disiplinert: 2 stk) -->
+  <div class="decor decor--ring" aria-hidden="true"></div>
+  <div class="decor decor--dot" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a href="#topp" class="brand">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 7h16M6 7v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7M9 4h6" />
+        </svg>
+      </span>
+      <span class="brand__text">Ibrahims<span class="brand__amp"> &amp; </span>Barbershop&nbsp;&amp;&nbsp;Kafé</span>
+    </a>
+    <nav class="site-nav" aria-label="Hovedmeny">
+      <a href="#tjenester">Tjenester</a>
+      <a href="#om-oss">Om oss</a>
+      <a href="#galleri">Galleri</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#kontakt" class="btn btn--nav">Bestill time</a>
+    </nav>
+  </header>
+
+  <main id="topp">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Oppsal Senter · Oslo · Nyåpnet 2025</p>
+          <h1 class="reveal">
+            Klipp deg mens du får<br />
+            en <span class="hl">god kaffe</span>.
+          </h1>
+          <p class="hero__lead reveal">
+            Ibrahims Barbershop &amp; Kafé er barbershop og kafé under samme tak.
+            Sett deg ned, ta en kopp, og la oss gjøre resten. Uformelt, varmt,
+            og alltid med et smil.
+          </p>
+          <div class="hero__cta reveal">
+            <a href="#kontakt" class="btn btn--solid">Bestill time</a>
+            <a href="#tjenester" class="btn btn--ghost">Se tjenester og priser</a>
+          </div>
+          <p class="hero__note reveal">Drop-in er velkommen når vi har ledig stol.</p>
+        </div>
+
+        <!-- Hero visual: kafé + klipp stemning -->
+        <div class="hero__visual reveal">
+          <div class="visual-card visual-card--photo">
+            <img
+              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80"
+              alt="Barberstol og speil i en varm, moderne barbershop"
+              loading="eager" />
+            <span class="visual-tag">Stolen din venter</span>
+          </div>
+          <div class="visual-card visual-card--coffee">
+            <img
+              src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80"
+              alt="En kopp nytraktet kaffe med latte-art"
+              loading="lazy" />
+            <span class="visual-tag visual-tag--light">Kaffen er på huset mens du venter</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONSEPT STRIP -->
+    <section class="strip" aria-label="Kort om oss">
+      <div class="strip__inner">
+        <div class="strip__item">
+          <span class="strip__icon" aria-hidden="true">✂</span>
+          <p><strong>Barbershop</strong><br />Klipp, skjegg og styling</p>
+        </div>
+        <div class="strip__item">
+          <span class="strip__icon" aria-hidden="true">☕</span>
+          <p><strong>Kafé</strong><br />Kaffe, prat og en pause</p>
+        </div>
+        <div class="strip__item">
+          <span class="strip__icon" aria-hidden="true">📍</span>
+          <p><strong>Oppsal Senter</strong><br />Enkelt å komme til</p>
+        </div>
+        <div class="strip__item">
+          <span class="strip__icon" aria-hidden="true">🙂</span>
+          <p><strong>Med et smil</strong><br />Uformelt og varmt</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TJENESTER / PRISER -->
+    <section id="tjenester" class="services">
+      <div class="section-head">
+        <p class="eyebrow reveal">Tjenester og priser</p>
+        <h2 class="reveal">Enkelt, ærlig og godt håndverk</h2>
+        <p class="section-lead reveal">
+          Alle klipp inkluderer en kopp kaffe mens du sitter i stolen.
+          Prisene under er eksempler, ta kontakt så finner vi det som passer deg.
+        </p>
+      </div>
+
+      <div class="price-grid">
+        <div class="price-card reveal">
+          <div class="price-card__top">
+            <h3>Herreklipp</h3>
+            <span class="price">fra 350&nbsp;kr</span>
+          </div>
+          <p>Klassisk eller moderne klipp, vask og styling. Vi tar oss tid til å gjøre det riktig.</p>
+        </div>
+        <div class="price-card reveal">
+          <div class="price-card__top">
+            <h3>Skjeggtrim</h3>
+            <span class="price">fra 200&nbsp;kr</span>
+          </div>
+          <p>Forming og trimming av skjegget, med varmt håndkle og finpuss langs kantene.</p>
+        </div>
+        <div class="price-card price-card--feature reveal">
+          <div class="price-card__top">
+            <h3>Klipp &amp; skjegg</h3>
+            <span class="price">fra 500&nbsp;kr</span>
+          </div>
+          <p>Hele pakken: klipp, skjeggforming og styling. Vår mest populære time.</p>
+          <span class="price-card__badge">Mest valgt</span>
+        </div>
+        <div class="price-card reveal">
+          <div class="price-card__top">
+            <h3>Barn (under 12)</h3>
+            <span class="price">fra 250&nbsp;kr</span>
+          </div>
+          <p>Rolig og trygg klipp for de minste. Saft mens de venter, kaffe til den voksne.</p>
+        </div>
+        <div class="price-card reveal">
+          <div class="price-card__top">
+            <h3>Maskinklipp</h3>
+            <span class="price">fra 250&nbsp;kr</span>
+          </div>
+          <p>Ren og rask maskinklipp med jevn fade. Inn, ferdig, ut, med god samvittighet.</p>
+        </div>
+        <div class="price-card reveal">
+          <div class="price-card__top">
+            <h3>Styling &amp; finish</h3>
+            <span class="price">fra 150&nbsp;kr</span>
+          </div>
+          <p>Vask, føn og produkt for en frisk finish før en anledning eller en vanlig dag.</p>
+        </div>
+      </div>
+      <p class="price-note reveal">Prisene er veiledende eksempler. Endelig pris avtaler vi når du kommer.</p>
+    </section>
+
+    <!-- OM OSS / KAFÉ-VINKEL -->
+    <section id="om-oss" class="about">
+      <div class="about__inner">
+        <div class="about__media reveal">
+          <img
+            src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80"
+            alt="Barber i arbeid med en kunde i en lys barbershop"
+            loading="lazy" />
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow reveal">Om oss</p>
+          <h2 class="reveal">Et sted der klipp og kaffe hører sammen</h2>
+          <p class="reveal">
+            Ibrahim åpnet dørene på Oppsal høsten 2025 med en enkel idé:
+            en barbershop skal føles som et sted du har lyst til å bli litt.
+            Derfor kombinerte han barbershop og kafé under samme tak.
+          </p>
+          <p class="reveal">
+            Her kan du komme innom for en klipp, en kaffe, eller begge deler.
+            Vent på stolen med en kopp i hånden, slå av en prat, og gå ut
+            med en frisk klipp og en god følelse. Vi gjør alt med et smil.
+          </p>
+          <ul class="about__points reveal">
+            <li>Kaffe på huset mens du sitter i stolen</li>
+            <li>God plass til å vente, jobbe eller bare henge</li>
+            <li>Barne- og familievennlig</li>
+          </ul>
+          <a href="#kontakt" class="btn btn--solid reveal">Kom innom</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERI -->
+    <section id="galleri" class="gallery">
+      <div class="section-head">
+        <p class="eyebrow reveal">Galleri</p>
+        <h2 class="reveal">Stemningen hos oss</h2>
+        <p class="section-lead reveal">Et lite innblikk. Ekte bilder fra shopen kommer snart.</p>
+      </div>
+      <div class="gallery__grid">
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=600&q=80" alt="Nærbilde av klipp og saks i arbeid" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&w=600&q=80" alt="Barberverktøy pent lagt frem" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=600&q=80" alt="Kopp kaffe på et kafébord" loading="lazy" />
+        </figure>
+        <figure class="gallery__item reveal">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80" alt="Interiør fra en varm barbershop" loading="lazy" />
+        </figure>
+      </div>
+      <p class="gallery__note reveal">Bilde-plassholdere. Byttes ut med ekte bilder fra Ibrahims Barbershop &amp; Kafé.</p>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt" class="contact">
+      <div class="contact__inner">
+        <div class="contact__copy">
+          <p class="eyebrow reveal">Kontakt og åpningstider</p>
+          <h2 class="reveal">Stikk innom, eller bestill time</h2>
+          <p class="reveal">
+            Du finner oss i Oppsal Senter. Ring for å bestille time, eller kom
+            innom for drop-in når vi har ledig stol. Vi tar godt imot deg.
+          </p>
+
+          <div class="contact__cards">
+            <div class="contact-card reveal">
+              <h3>Adresse</h3>
+              <p>Oppsal Senter<br />Ekebergveien 233<br />1162 Oslo</p>
+            </div>
+            <div class="contact-card reveal">
+              <h3>Telefon</h3>
+              <p><a href="tel:+47">[telefon]</a><br /><span class="muted">Ring for å bestille time</span></p>
+            </div>
+            <div class="contact-card reveal">
+              <h3>E-post</h3>
+              <p><a href="mailto:">[e-post]</a><br /><span class="muted">Vi svarer så fort vi kan</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__hours reveal">
+          <h3>Åpningstider</h3>
+          <ul class="hours">
+            <li><span>Mandag</span><span>[tid]</span></li>
+            <li><span>Tirsdag</span><span>[tid]</span></li>
+            <li><span>Onsdag</span><span>[tid]</span></li>
+            <li><span>Torsdag</span><span>[tid]</span></li>
+            <li><span>Fredag</span><span>[tid]</span></li>
+            <li><span>Lørdag</span><span>[tid]</span></li>
+            <li class="hours--closed"><span>Søndag</span><span>Stengt</span></li>
+          </ul>
+          <p class="hours__note">Åpningstidene er plassholdere og bekreftes av shopen.</p>
+          <a href="#kontakt" class="btn btn--solid btn--block">Bestill time</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <span class="brand__text">Ibrahims Barbershop &amp; Kafé</span>
+        <p>Klipp og kaffe under samme tak, på Oppsal.</p>
+      </div>
+      <div class="site-footer__col">
+        <h4>Meny</h4>
+        <a href="#tjenester">Tjenester</a>
+        <a href="#om-oss">Om oss</a>
+        <a href="#galleri">Galleri</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+      <div class="site-footer__col">
+        <h4>Besøk oss</h4>
+        <p>Oppsal Senter<br />Ekebergveien 233<br />1162 Oslo</p>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p>© <span id="year"></span> Ibrahims Barbershop &amp; Kafé</p>
+      <p>Nettside av Dietrichs Marketing</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
